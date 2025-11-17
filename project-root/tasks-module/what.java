@@ -1,11 +1,11 @@
 //\\\
 package project-root.tasks-module.what
-import project-root.tasks-module.auth
+import project-root.tasks-module.halo
   public class tasks {
   
 public void start(int clientid) {
-if(auth.checkValid(clientid)) {
-System.out.println("якобы не все подряд таски выполняются. для всех клиентов кроме инвалидов")
+if(halo.checkValid(clientid)) {
+System.out.println("кыщ мыш")// у инвалидов приложение работать не будет
 
 }
 }
