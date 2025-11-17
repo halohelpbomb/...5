@@ -1,7 +1,7 @@
 /////////////////////
 package project-root.auth-module.halo
 
-private static class auth {
+private static class halo {
   private void entire(int idk){
     
   if(idk == (int)(Math.random()*6))System.out.println("сделаем вид тут настоящая система аутентификации")
